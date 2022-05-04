@@ -1,8 +1,15 @@
 package charset;
 
 import java.nio.charset.Charset;
+
 import org.apache.commons.codec.binary.Hex;
 
+/**
+ * CharsetLibrary
+ *
+ * @author niwase.hiroaki
+ * @version 1.0
+ */
 public class CharsetLibrary {
 
   /**
@@ -64,6 +71,4 @@ public class CharsetLibrary {
     out = out.trim();
     return out;
   }
-
 }
-
