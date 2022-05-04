@@ -24,7 +24,7 @@ public class CharsetLibrary {
    * @return 文字列
    */
   public String jefHex2String(String binary) {
-    String out = binary.replaceAll("\s", "");
+    String out = binary.replaceAll("\\s", "");
     byte[] buff = new byte[256 * 1000 * 1000];
 
     int len = 0;
