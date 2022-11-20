@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>net.arnx</groupId>
 			<artifactId>jef4j</artifactId>
-			<version>0.9.0</version>
+			<version>0.9.3</version>
 		</dependency>
 	</dependencies>
 
